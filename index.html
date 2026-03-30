@@ -1,819 +1,606 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Nadeeshan Wijesinghe portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
+  <title>Nadeeshan Wijesinghe – System Engineer &amp; IT Portfolio</title>
+  <meta content="System Engineer, DevOps, Linux, Docker, Portfolio" name="description">
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" crossorigin>
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<style>
+/* ═══════════════════════════════════════════════
+   THEME VARIABLES
+═══════════════════════════════════════════════ */
+</style>
 </head>
-
 <body class="index-page">
 
-  <header id="header" class="header d-flex flex-column justify-content-center">
+<!-- ════════ SIDEBAR HEADER ════════ -->
+<header id="header" class="header d-flex flex-column justify-content-center">
+  <i class="header-toggle d-xl-none bi bi-list"></i>
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+      <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+      <li><a href="#skills"><i class="bi bi-gear navicon"></i><span>Skills</span></a></li>
+      <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+      <li><a href="#portfolio"><i class="bi bi-award navicon"></i><span>Certifications</span></a></li>
+      <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Projects</span></a></li>
+      <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+    </ul>
+  </nav>
+</header>
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+<main class="main">
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="">
-
-      <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <p> Welcome to my portfolio website!</p>
-            <h2>Nadeeshan Wijesinghe</h2>
-            <p> I'm <span class="typed" data-typed-items="System Enginer,DevOps Enthusiast,Designer, Developer, Freelancer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div class="social-links">
-              <a href="https://x.com/nadeeshan_rw?s=11&t=DeT_enLlUtNYMEJxstFUkA"><i class="bi bi-twitter-x"></i></a>
-              <a href="https://www.facebook.com/share/18V3yN3VoJ/?mibextid=wwXIfr"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/nadeeshan.r.wijesingha?igsh=OW9wbWg3MGozbGNh&utm_source=qr"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/nadeeshan-wijesinghe-3724ba263?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="bi bi-linkedin"></i></a>
-            </div>
-            <div class="custom-btn-group mt-4">
-              <a href="https://drive.google.com/file/d/1XtYSdQRv8ORoOv6uzKGWny0BKXEVOhLq/view?usp=drive_link" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
-              <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Hire ME</a>
-            </div>
-
-          </div>
+<!-- ════════ HERO ════════ -->
+<section id="hero" class="hero section light-background">
+  <img src="assets/img/hero-bg.jpg" alt="">
+  <div class="container" data-aos="zoom-out">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <p>Welcome to my portfolio website!</p>
+        <h2>Nadeeshan Wijesinghe</h2>
+        <p>I'm <span class="typed" data-typed-items="System Engineer,DevOps Enthusiast,Linux Administrator,Developer,Freelancer">System Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <div class="social-links">
+          <a href="https://x.com/nadeeshan_rw?s=11&t=DeT_enLlUtNYMEJxstFUkA" target="_blank"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.facebook.com/share/18V3yN3VoJ/?mibextid=wwXIfr" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/nadeeshan.r.wijesingha?igsh=OW9wbWg3MGozbGNh&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/nadeeshan-wijesinghe-3724ba263" target="_blank"><i class="bi bi-linkedin"></i></a>
         </div>
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Passionate about delivering excellence, I thrive on challenges and believe in turning ideas into impactful solutions.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-
-            <img src="assets/img/profile-img.jpg" class="img-fluid profile-animated " alt="">
-          </div>
-          <div class="profile-container">
-            <h1 class="big">About</h1>
-            <h1 class="profile-heading">About Me</h1>
-            <p class="profile-bio">A creative problem-solver inspired by innovation, I approach every project with dedication and a keen eye for detail.</p>
-    
-            <div class="profile-detail"><strong>Name:</strong> D.M.Nadeeshan Wijesinghe</div>
-            <div class="profile-detail"><strong>Date of birth:</strong> January 09, 2001</div>
-            <div class="profile-detail"><strong>Address:</strong> Kaduruwewa,Ehetuwewa</div>
-            <div class="profile-detail"><strong>Zip code:</strong> 60716</div>
-            <div class="profile-detail"><strong>Email:</strong> nadeeshan.ranjana@gmail.com</div>
-            <div class="profile-detail"><strong>Phone:</strong> +94 717974724 / +94 768564429</div>
-    
-            <hr class="profile-divider">
-            <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact me</a>
+        <div class="custom-btn-group mt-4">
+          <a href="https://drive.google.com/file/d/1XtYSdQRv8ORoOv6uzKGWny0BKXEVOhLq/view?usp=drive_link" target="_blank" class="btn mr-lg-2 custom-btn"><i class="bi bi-file-earmark-arrow-down me-1"></i>Download Resume</a>
+          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Hire Me</a>
         </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-headset"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-people"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Programing </p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Equipped with a versatile skill set, I specialize in adapting to dynamic environments to deliver efficient and high-quality results.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>SQL</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>WordPress/CMS</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>React</span> <i class="val">45%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JAVA</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-            
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>With a proven track record, my experience reflects a blend of technical proficiency and strategic thinking.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Nadeeshan Wijesinghe</h4>
-              <p><em>I am a hard-working and ambitious third-year Bachelor of Information Technology student at Saegis Campus, with a strong passion for networking and cybersecurity. I possess a solid foundation in IT systems, network protocols, and security principles.</em></p>
-              <ul>
-                <li>kaduruwewa,Ehetuwewa</li>
-                <li>+94 717974724</li>
-                <li>nadeeshan.ranjana@gmail.com</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor of Information Technology </h4>
-              <h5>Oct 2022– Nov 2025</h5>
-              <p><em>Saegis Campus – Nugegoda</em></p>
-              <p>Currently pursuing a Bachelor's degree in Information Technology with a strong foundation in system administration, networking, and cybersecurity. </p>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>G.C.E. A/L</h4>
-              <h5>2018 –2020</h5>
-              <p><em>Bandaranayake National School – Ehetuwewa</em></p>
-              <p>Followed the Technology Stream, specializing in Information & Communication Technology (ICT), Engineering Technology, and Science for Technology.</p>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Extracurricular activities</h3>
-            <div class="resume-item">
-              <h4>Deputy Secretary-ICT Club</h4>
-              <h5>Nov 2023 - jun 2025t</h5>
-              <p><em>Saegis Campus </em></p>
-              <ul>
-                <li>Organized an Industry Preparation Workshop (Sept 30 – Oct 4, 2024).</li>
-                <li>Coordinated and managed the Game Tournament at Saegis Campus (Jan 2024). </li>
-                
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Research</h4>
-              <h5>Jul 2024</h5>
-              <p><em>Risks, Threats, and Vulnerabilities of Jailbreaking Artificial Intelligence (AI)</em></p>
-              <ul>
-                <li>Made a presentation at saegis undergraduate research symposium</li>
-
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Certifications</h2>
-        <p>Committed to continuous learning, I hold certifications that validate my expertise and dedication to professional growth.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/Endpoint Security.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Endpoint Security</h4>
-                <p>CISCO</p>
-                <a href="assets/img/masonry-portfolio/Endpoint Security.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/Linux Essentials.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Linux Essentials</h4>
-                <p>CISCO</p>
-                <a href="assets/img/masonry-portfolio/Linux Essentials.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/Linux Unhatched.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Linux Unhatched</h4>
-                <p>CISCO</p>
-                <a href="assets/img/masonry-portfolio/Linux Unhatched.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/aws-knowledge-cloud-essentials.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>aws-knowledge-cloud-essentials</h4>
-                <p>AWS</p>
-                <a href="assets/img/masonry-portfolio/aws-knowledge-cloud-essentials.png" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/Networking Basics.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Networking Basics</h4>
-                <p>CISCO</p>
-                <a href="assets/img/masonry-portfolio/Networking Basics.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/Networking Devices and Initial Configuration.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Networking Devices and Initial Configuration</h4>
-                <p>CISCO</p>
-                <a href="assets/img/masonry-portfolio/Networking Devices and Initial Configuration.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/aws-educate-introduction-to-generative-ai.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>aws-educate-introduction-to-generative-ai</h4>
-                <p>AWS</p>
-                <a href="assets/img/masonry-portfolio/aws-educate-introduction-to-generative-ai.png" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>From concept to execution, my projects showcase innovation, precision, and a commitment to achieving measurable success.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item item-cyan position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                </svg>
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>System Monitoring Script</h3>
-              </a>
-              <p> Bash, Linux</p>
-            </div>
-          </div>
-          
-          <!-- End Service Item -->
-
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item item-pink position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Inventory System </h3>
-              </a>
-              <p>Java, Swing, MySQL</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>
-          
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item item-teal position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                </svg>
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Epic Mart</h3>
-              </a>
-              <p>Android Studio, Kotlin, Firebase Authentication, Figma</p>
-            </div>
-          </div>
-          
-          
-          <!-- End Service Item -->
-
-<!--
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item item-orange position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                </svg>
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Eosle Commodi</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            </div>
-          </div> 
-          
-          
-          
-          -----------------------End Service Item--------------------------------------------------------------          
-        
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item item-red position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                </svg>
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>
-          
-          -------------------------------------End Service Item ------------------------------------------------------------------
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item item-indigo position-relative">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                </svg>
-                <i class="bi bi-calendar4-week icon"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>
-          
-          ------------------------------------------------End Service Item-----------------------------------------------------
-           -->
-    
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-
-    
-    <!-- 
-    --------------------------------------------------Testimonials Section----------------- -------------------------------------
-    <section id="testimonials" class="testimonials section">
-
-     ---------------------  Section Title -----------------
-
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div>
-      
-      ------------------- End Section Title ----------------------
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>gdsfsdafsdfsddfdsfsdfsdfdsdfsdfdfdfdfdfdfdfd</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Name</h3>
-                      <h4>position</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            
-            --------------------------End testimonial item -----------------------
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>fvdvodvodviodsnojsdanosdnojsd onfdinfdffjsefsdfsdfadf</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>name</h3>
-                      <h4>possiton</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            ----------------------------End testimonial item ---------------------------
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Name</h3>
-                      <h4>position</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="fdfddf" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            --------------------------------- End testimonial item --------------------------------
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>sdfsdsdffasdsd</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>name </h3>
-                      <h4>position</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            -------------------------- End testimonial item ---------------------------------
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section>
-    
-    
-    ------------------------------------------------Testimonials Section ---------------------------------------------------------------
-
--->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Let’s collaborate! Reach out to discuss opportunities or share ideas—I’d love to connect.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>kaduruwewa,Ehetuwewa</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+94 768564429 / +94 717974724</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>ndeesharanjana@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
-      <h3 class="sitename">Nadeshan Wijesinghe</h3>
-      <p>Driven by purpose, I strive to create meaningful work that makes a difference.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://x.com/nadeeshan_rw?s=11&t=DeT_enLlUtNYMEJxstFUkA"><i class="bi bi-twitter-x"></i></a>
-              <a href="https://www.facebook.com/share/18V3yN3VoJ/?mibextid=wwXIfr"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/nadeeshan.r.wijesingha?igsh=OW9wbWg3MGozbGNh&utm_source=qr"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/nadeeshan-wijesinghe-3724ba263?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="bi bi-linkedin"></i></a>
-          
       </div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- ════════ ABOUT ════════ -->
+<section id="about" class="about section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About</h2>
+    <p>Passionate about delivering excellence, I thrive on challenges and believe in turning ideas into impactful solutions.</p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-4">
+        <img src="assets/img/profile-img.jpg" class="img-fluid profile-animated" alt="Nadeeshan Wijesinghe">
+      </div>
+      <div class="profile-container">
+        <h1 class="big">About</h1>
+        <h1 class="profile-heading">About Me</h1>
+        <p class="profile-bio">A results-driven IT professional and BIT graduate with hands-on industry experience as a System Engineer. Passionate about Linux server administration, DevOps tooling, virtualisation, and building reliable, scalable IT infrastructure.</p>
+        <div class="profile-detail"><strong>Name:</strong> D.M.Nadeeshan Wijesinghe</div>
+        <div class="profile-detail"><strong>Date of Birth:</strong> January 09, 2001</div>
+        <div class="profile-detail"><strong>Address:</strong> Kaduruwewa, Ehetuwewa</div>
+        <div class="profile-detail"><strong>Zip Code:</strong> 60716</div>
+        <div class="profile-detail"><strong>Email:</strong> nadeeshan.r.wijesingha@gmail.com</div>
+        <div class="profile-detail"><strong>Phone:</strong> +94 717974724 / +94 768564429</div>
+        <hr class="profile-divider">
+        <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+<!-- ════════ STATS ════════ -->
+<section id="stats" class="stats section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+        <i class="bi bi-emoji-smile"></i>
+        <div class="stats-item">
+          <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+        <i class="bi bi-journal-richtext"></i>
+        <div class="stats-item">
+          <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Projects</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+        <i class="bi bi-server"></i>
+        <div class="stats-item">
+          <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Technologies</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+        <i class="bi bi-people"></i>
+        <div class="stats-item">
+          <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Skills</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!-- ════════ SKILLS ════════ -->
+<section id="skills" class="skills-new-section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Skills</h2>
+    <p>Hover a badge for proficiency level &bull; Click the header to collapse / expand each category</p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="80">
+    <div class="skills-legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#28a745"></div>Expert</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#17a2b8"></div>Advanced</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#ffc107"></div>Intermediate</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#dc3545"></div>Beginner</div>
+    </div>
+    <div class="row g-4">
+      <!-- LEFT -->
+      <div class="col-lg-6">
+        <div class="skill-category-block" data-aos="fade-right">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-code-slash cat-icon"></i><h5>Web Development</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-expert" data-lvl="Expert (90%)"><span class="skill-level-dot"></span>HTML</span>
+            <span class="skill-tag lvl-expert" data-lvl="Expert (90%)"><span class="skill-level-dot"></span>CSS</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>JavaScript</span>
+            <span class="skill-tag lvl-beginner" data-lvl="Beginner (45%)"><span class="skill-level-dot"></span>React</span>
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (80%)"><span class="skill-level-dot"></span>WordPress / CMS</span>
+          </div>
+        </div>
+        <div class="skill-category-block" data-aos="fade-right" data-aos-delay="60">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-terminal cat-icon"></i><h5>Linux Administration</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (80%)"><span class="skill-level-dot"></span>Ubuntu</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (65%)"><span class="skill-level-dot"></span>Rocky Linux</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (65%)"><span class="skill-level-dot"></span>AlmaLinux</span>
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (75%)"><span class="skill-level-dot"></span>Linux Server Admin</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>Bash Scripting</span>
+          </div>
+        </div>
+        <div class="skill-category-block" data-aos="fade-right" data-aos-delay="120">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-hdd-rack cat-icon"></i><h5>Virtualisation &amp; Hypervisors</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (75%)"><span class="skill-level-dot"></span>Proxmox VE</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>VMware Workstation</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (55%)"><span class="skill-level-dot"></span>Windows Server</span>
+          </div>
+        </div>
+        <div class="skill-category-block" data-aos="fade-right" data-aos-delay="160">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-braces cat-icon"></i><h5>Programming &amp; Databases</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (75%)"><span class="skill-level-dot"></span>Java</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>SQL</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (55%)"><span class="skill-level-dot"></span>MySQL</span>
+          </div>
+        </div>
+      </div>
+      <!-- RIGHT -->
+      <div class="col-lg-6">
+        <div class="skill-category-block" data-aos="fade-left" data-aos-delay="60">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-boxes cat-icon"></i><h5>DevOps &amp; Containers</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (75%)"><span class="skill-level-dot"></span>Docker</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (65%)"><span class="skill-level-dot"></span>Portainer</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>Jenkins</span>
+          </div>
+        </div>
+        <div class="skill-category-block" data-aos="fade-left" data-aos-delay="100">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-graph-up cat-icon"></i><h5>Monitoring &amp; Logging</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (65%)"><span class="skill-level-dot"></span>Graylog</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>Kibana</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>PRTG</span>
+          </div>
+        </div>
+        <div class="skill-category-block" data-aos="fade-left" data-aos-delay="140">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-app-indicator cat-icon"></i><h5>Applications Deployed</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (70%)"><span class="skill-level-dot"></span>DSpace</span>
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (70%)"><span class="skill-level-dot"></span>Odoo</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (65%)"><span class="skill-level-dot"></span>OJS</span>
+          </div>
+        </div>
+        <div class="skill-category-block" data-aos="fade-left" data-aos-delay="180">
+          <div class="skill-category-header" onclick="toggleSkill(this)">
+            <i class="bi bi-shield-lock cat-icon"></i><h5>Networking &amp; Security</h5><i class="bi bi-chevron-down chevron"></i>
+          </div>
+          <div class="skill-tags-wrap">
+            <span class="skill-tag lvl-advanced" data-lvl="Advanced (75%)"><span class="skill-level-dot"></span>Network Fundamentals</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (60%)"><span class="skill-level-dot"></span>Endpoint Security</span>
+            <span class="skill-tag lvl-mid" data-lvl="Intermediate (55%)"><span class="skill-level-dot"></span>Cybersecurity Principles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+<!-- ════════ RESUME — CREATIVE TIMELINE ════════ -->
+<section id="resume" class="resume section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>My journey in technology &mdash; education, hands-on experience, and beyond.</p>
+  </div>
+  <div class="container">
+    <div class="row g-5">
 
+      <!-- LEFT: Summary + Education + Extracurricular -->
+      <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+
+        <!-- Summary Card -->
+        <div class="resume-summary-card">
+          <h4>Nadeeshan Wijesinghe</h4>
+          <p>System Engineer &amp; BIT Graduate with hands-on expertise in Linux administration, DevOps, virtualisation, and scalable IT infrastructure.</p>
+          <div class="rs-contact">
+            <span><i class="bi bi-geo-alt-fill"></i> Ehetuwewa, Sri Lanka</span>
+            <a href="tel:+94717974724"><i class="bi bi-telephone-fill"></i> +94 717974724</a>
+            <a href="mailto:nadeeshan.r.wijesingha@gmail.com"><i class="bi bi-envelope-fill"></i> Email Me</a>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <p class="resume-col-title"><i class="bi bi-mortarboard-fill"></i> Education</p>
+        <div class="resume-timeline">
+          <div class="rt-item" data-aos="fade-up" data-aos-delay="100">
+            <span class="rt-badge edu"><i class="bi bi-mortarboard"></i> Degree</span>
+            <h4>Bachelor of Information Technology (BIT)<span class="gpa-badge">GPA 3.36</span></h4>
+            <div class="rt-org">Saegis Campus &mdash; Nugegoda</div>
+            <span class="rt-date"><i class="bi bi-calendar3"></i> Oct 2022 &ndash; Nov 2025</span>
+            <p>Second Class Lower Division. Strong foundation in system administration, networking, cybersecurity, and software development.</p>
+          </div>
+          <div class="rt-item" data-aos="fade-up" data-aos-delay="150">
+            <span class="rt-badge edu"><i class="bi bi-book"></i> A/L</span>
+            <h4>G.C.E. Advanced Level</h4>
+            <div class="rt-org">Bandaranayake National School &mdash; Ehetuwewa</div>
+            <span class="rt-date"><i class="bi bi-calendar3"></i> 2018 &ndash; 2020</span>
+            <p>Technology Stream &mdash; ICT, Engineering Technology &amp; Science for Technology.</p>
+          </div>
+        </div>
+
+        <!-- Extracurricular -->
+        <p class="resume-col-title mt-4"><i class="bi bi-star-fill"></i> Activities &amp; Achievements</p>
+        <div class="resume-timeline">
+          <div class="rt-item" data-aos="fade-up" data-aos-delay="100">
+            <span class="rt-badge extra"><i class="bi bi-people-fill"></i> Leadership</span>
+            <h4>Deputy Secretary &mdash; ICT Club</h4>
+            <div class="rt-org">Saegis Campus</div>
+            <span class="rt-date"><i class="bi bi-calendar3"></i> Nov 2023 &ndash; Jun 2025</span>
+            <ul>
+              <li>Organised the Industry Preparation Workshop (Sept 30 &ndash; Oct 4, 2024).</li>
+              <li>Coordinated the Game Tournament (Jan 2024).</li>
+            </ul>
+          </div>
+          <div class="rt-item" data-aos="fade-up" data-aos-delay="130">
+            <span class="rt-badge extra"><i class="bi bi-journal-text"></i> Research</span>
+            <h4>Risks, Threats &amp; Vulnerabilities of AI Jailbreaking</h4>
+            <div class="rt-org">Saegis Undergraduate Research Symposium</div>
+            <span class="rt-date"><i class="bi bi-calendar3"></i> Jul 2024</span>
+            <p>Presented research on AI security at the undergraduate symposium.</p>
+          </div>
+          <div class="rt-item" data-aos="fade-up" data-aos-delay="160">
+            <span class="rt-badge extra"><i class="bi bi-lightning-charge-fill"></i> Hackathon</span>
+            <h4>Code Pulse Hackathon</h4>
+            <div class="rt-org">Saegis Campus</div>
+            <span class="rt-date"><i class="bi bi-calendar3"></i> 2024</span>
+            <p>Competed in a team coding challenge, developing a working solution under time pressure.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Experience -->
+      <div class="col-lg-7" data-aos="fade-left" data-aos-delay="100">
+        <p class="resume-col-title"><i class="bi bi-briefcase-fill"></i> Professional Experience</p>
+        <div class="resume-timeline">
+
+          <div class="rt-item" data-aos="fade-up" data-aos-delay="80">
+            <span class="rt-badge work"><i class="bi bi-briefcase"></i> Current Role</span>
+            <h4>System Engineer</h4>
+            <div class="rt-org"><i class="bi bi-building me-1"></i>CloudVito Pvt Ltd</div>
+            <span class="rt-date"><i class="bi bi-calendar3"></i> Oct 2025 &ndash; Present</span>
+            <ul>
+              <li>Promoted to full System Engineer following a successful internship.</li>
+              <li>Managed development, staging, and production environments ensuring consistent service availability.</li>
+              <li>Deployed and maintained enterprise applications: DSpace, Odoo, and OJS.</li>
+              <li>Monitored, analysed, and troubleshot servers using Graylog, Kibana, and PRTG.</li>
+              <li>Administered Linux servers and containerised services with Proxmox VE, Docker, and Jenkins.</li>
+            </ul>
+            <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--tag-bg);color:var(--tag-color);font-weight:600">Linux</span>
+              <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--tag-bg);color:var(--tag-color);font-weight:600">Docker</span>
+              <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--tag-bg);color:var(--tag-color);font-weight:600">Proxmox VE</span>
+              <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--tag-bg);color:var(--tag-color);font-weight:600">Jenkins</span>
+              <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--tag-bg);color:var(--tag-color);font-weight:600">Graylog</span>
+              <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--tag-bg);color:var(--tag-color);font-weight:600">Kibana</span>
+              <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:var(--tag-bg);color:var(--tag-color);font-weight:600">PRTG</span>
+            </div>
+          </div>
+
+          <div class="rt-item" data-aos="fade-up" data-aos-delay="140">
+            <span class="rt-badge work"><i class="bi bi-person-workspace"></i> Internship</span>
+            <h4>Intern System Engineer</h4>
+            <div class="rt-org"><i class="bi bi-building me-1"></i>CloudVito Pvt Ltd</div>
+            <span class="rt-date"><i class="bi bi-calendar3"></i> Apr 2025 &ndash; Oct 2025</span>
+            <ul>
+              <li>Gained hands-on experience in server provisioning, environment management, and application deployment.</li>
+              <li>Supported senior engineers in maintaining production uptime and resolving infrastructure incidents.</li>
+              <li>Worked daily with Ubuntu, Docker, Portainer, and Jenkins pipelines.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Download CTA 
+        <div style="margin-top:30px;padding:22px 26px;background:var(--surface-color);border:1px solid var(--card-border);border-radius:14px;text-align:center" data-aos="fade-up" data-aos-delay="200">
+          <p style="margin:0 0 12px;font-size:14px;color:var(--default-color)">Want the full version? Download my PDF resume.</p>
+          <a href="https://drive.google.com/file/d/1XtYSdQRv8ORoOv6uzKGWny0BKXEVOhLq/view?usp=drive_link" target="_blank" class="btn custom-btn custom-btn-bg custom-btn-link">
+            <i class="bi bi-file-earmark-arrow-down me-2"></i>Download Resume
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  -->
+</section>
+
+<!-- ════════ CERTIFICATIONS ════════ -->
+<section id="portfolio" class="portfolio section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <p>Committed to continuous learning, I hold certifications that validate my expertise and dedication to professional growth.</p>
+  </div>
+  <div class="container">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-app">Cisco</li>
+        <li data-filter=".filter-product">AWS</li>
+      </ul>
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <img src="assets/img/masonry-portfolio/Endpoint Security.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info"><h4>Endpoint Security</h4><p>CISCO</p>
+            <a href="assets/img/masonry-portfolio/Endpoint Security.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a></div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <img src="assets/img/masonry-portfolio/Linux Essentials.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info"><h4>Linux Essentials</h4><p>CISCO</p>
+            <a href="assets/img/masonry-portfolio/Linux Essentials.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a></div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <img src="assets/img/masonry-portfolio/Linux Unhatched.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info"><h4>Linux Unhatched</h4><p>CISCO</p>
+            <a href="assets/img/masonry-portfolio/Linux Unhatched.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a></div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <img src="assets/img/masonry-portfolio/aws-knowledge-cloud-essentials.png" class="img-fluid" alt="">
+          <div class="portfolio-info"><h4>AWS Cloud Essentials</h4><p>AWS</p>
+            <a href="assets/img/masonry-portfolio/aws-knowledge-cloud-essentials.png" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a></div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <img src="assets/img/masonry-portfolio/Networking Basics.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info"><h4>Networking Basics</h4><p>CISCO</p>
+            <a href="assets/img/masonry-portfolio/Networking Basics.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a></div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <img src="assets/img/masonry-portfolio/Networking Devices and Initial Configuration.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info"><h4>Networking Devices &amp; Config</h4><p>CISCO</p>
+            <a href="assets/img/masonry-portfolio/Networking Devices and Initial Configuration.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a></div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+          <img src="assets/img/masonry-portfolio/aws-educate-introduction-to-generative-ai.png" class="img-fluid" alt="">
+          <div class="portfolio-info"><h4>Intro to Generative AI</h4><p>AWS Educate</p>
+            <a href="assets/img/masonry-portfolio/aws-educate-introduction-to-generative-ai.png" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ PROJECTS ════════ -->
+<section id="services" class="services section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p>From concept to execution, showcasing innovation, precision, and measurable results.</p>
+  </div>
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item item-cyan position-relative">
+          <div class="icon"><svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521C376,518,466,530,511,468C554,408,508,329,491,256C475,184,480,97,416,58C349,19,262,41,194,79C130,114,98,180,77,249C52,329,14,422,67,486C119,550,217,524,300,521"></path></svg><i class="bi bi-activity"></i></div>
+          <a href="#" class="stretched-link"><h3>System Monitoring Script</h3></a>
+          <p>Bash, Linux &mdash; Automated server health monitoring with alert notifications.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item item-pink position-relative">
+          <div class="icon"><svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,567C386,576,479,553,532,485C585,418,582,323,554,242C529,172,465,128,396,101C334,77,269,85,207,107C133,134,42,160,23,237C3,314,73,379,124,440C173,499,224,558,300,567"></path></svg><i class="bi bi-box-seam"></i></div>
+          <a href="#" class="stretched-link"><h3>Inventory System</h3></a>
+          <p>Java, Swing, MySQL &mdash; Desktop inventory management application.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item item-teal position-relative">
+          <div class="icon"><svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,542C382,545,480,548,526,481C572,415,518,332,497,255C477,185,474,106,413,65C343,19,251,5,175,41C98,76,52,156,36,240C22,319,44,401,97,462C147,520,224,538,300,542"></path></svg><i class="bi bi-easel"></i></div>
+          <a href="#" class="stretched-link"><h3>Epic Mart</h3></a>
+          <p>Android Studio, Kotlin, Firebase, Figma &mdash; Mobile e-commerce application.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ CONTACT ════════ -->
+<section id="contact" class="contact section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Let&rsquo;s collaborate! Reach out to discuss opportunities or share ideas &mdash; I&rsquo;d love to connect.</p>
+  </div>
+  <div class="container" data-aos="fade" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
+          <div><h3>Address</h3><p>Kaduruwewa, Ehetuwewa</p></div>
+        </div>
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-telephone flex-shrink-0"></i>
+          <div><h3>Call Me</h3><p>+94 768564429 / +94 717974724</p></div>
+        </div>
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div><h3>Email Me</h3><p>nadeeshan.r.wijesingha@gmail.com</p></div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <form id="contactForm" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+            <div class="col-md-6"><input type="text" id="cf-name" placeholder="Your Name" required></div>
+            <div class="col-md-6"><input type="email" id="cf-email" placeholder="Your Email" required></div>
+            <div class="col-md-12"><input type="text" id="cf-subject" placeholder="Subject" required></div>
+            <div class="col-md-12"><textarea id="cf-message" rows="6" placeholder="Message" required></textarea></div>
+            <div class="col-md-12 text-center">
+              <div id="contact-loading"><span class="spinner-border spinner-border-sm me-2" role="status"></span>Sending&hellip;</div>
+              <div id="contact-success">&#10003; Your message has been sent. Thank you!</div>
+              <div id="contact-error">&#10007; Something went wrong. Please email me directly.</div>
+              <button type="submit">Send Message</button>
+              <p class="emailjs-note mt-2">Powered by EmailJS &mdash; messages go straight to my inbox.</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ════════ FOOTER ════════ -->
+<footer id="footer" class="footer position-relative light-background">
+  <div class="container">
+    <h3 class="sitename">Nadeeshan Wijesinghe</h3>
+    <p>Driven by purpose, I strive to create meaningful work that makes a difference.</p>
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://x.com/nadeeshan_rw?s=11&t=DeT_enLlUtNYMEJxstFUkA" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/share/18V3yN3VoJ/?mibextid=wwXIfr" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/nadeeshan.r.wijesingha?igsh=OW9wbWg3MGozbGNh&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/nadeeshan-wijesinghe-3724ba263" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <div class="copyright mt-3">
+      <p>&copy; <span id="footer-year"></span> <strong>Nadeeshan Wijesinghe</strong>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Theme Toggle -->
+<button class="theme-toggle-btn" id="themeToggle" title="Toggle Dark / Light Mode" aria-label="Toggle theme">
+  <i class="bi bi-moon-fill i-moon"></i>
+  <i class="bi bi-sun-fill i-sun"></i>
+</button>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<!-- Vendor JS -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/typed.js/typed.umd.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+/* ── THEME TOGGLE ── */
+const html = document.documentElement;
+const themeBtn = document.getElementById('themeToggle');
+html.setAttribute('data-theme', localStorage.getItem('nw-theme') || 'light');
+themeBtn.addEventListener('click', () => {
+  const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('nw-theme', next);
+});
+
+/* ── SKILL BLOCK COLLAPSE ── */
+function toggleSkill(el) {
+  el.closest('.skill-category-block').classList.toggle('collapsed');
+}
+
+/* ── FOOTER YEAR ── */
+document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+/* ── EMAILJS CONTACT FORM ──────────────────────────────────────────
+   HOW TO ACTIVATE (free, ~5 min):
+   1. Sign up → https://www.emailjs.com
+   2. Add an Email Service (Gmail) → copy Service ID
+   3. Create a Template with:  {{from_name}} {{from_email}} {{subject}} {{message}}
+      → copy Template ID
+   4. Account page → copy Public Key
+   5. Paste your three values below and save the file.
+─────────────────────────────────────────────────────────────────── */
+const EJ_KEY      = 'YOUR_PUBLIC_KEY';   // ← replace
+const EJ_SERVICE  = 'YOUR_SERVICE_ID';   // ← replace
+const EJ_TEMPLATE = 'YOUR_TEMPLATE_ID';  // ← replace
+
+if (EJ_KEY !== 'YOUR_PUBLIC_KEY') emailjs.init({ publicKey: EJ_KEY });
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const loading = document.getElementById('contact-loading');
+  const success = document.getElementById('contact-success');
+  const error   = document.getElementById('contact-error');
+  [loading, success, error].forEach(el => el.style.display = 'none');
+  loading.style.display = 'block';
+
+  if (EJ_KEY === 'YOUR_PUBLIC_KEY') {
+    loading.style.display = 'none';
+    error.style.display = 'block';
+    error.innerHTML = '&#9888; Email not configured yet &mdash; please write to: <strong>nadeeshan.r.wijesingha@gmail.com</strong>';
+    return;
+  }
+  emailjs.send(EJ_SERVICE, EJ_TEMPLATE, {
+    from_name:  document.getElementById('cf-name').value,
+    from_email: document.getElementById('cf-email').value,
+    subject:    document.getElementById('cf-subject').value,
+    message:    document.getElementById('cf-message').value,
+  }).then(() => {
+    loading.style.display = 'none';
+    success.style.display = 'block';
+    this.reset();
+  }).catch(err => {
+    console.error(err);
+    loading.style.display = 'none';
+    error.style.display = 'block';
+  });
+});
+</script>
 </body>
-
 </html>
