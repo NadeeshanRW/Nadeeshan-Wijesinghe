@@ -571,11 +571,11 @@ document.getElementById('footer-year').textContent = new Date().getFullYear();
    4. Account page → copy Public Key
    5. Paste your three values below and save the file.
 ─────────────────────────────────────────────────────────────────── */
-const EJ_KEY      = 'YOUR_PUBLIC_KEY';   // ← replace
-const EJ_SERVICE  = 'YOUR_SERVICE_ID';   // ← replace
-const EJ_TEMPLATE = 'YOUR_TEMPLATE_ID';  // ← replace
+const EJ_KEY      = 'bvX9q6Dh9oOI8qcfy';   // ← replace
+const EJ_SERVICE  = 'service_h2jxpjn';   // ← replace
+const EJ_TEMPLATE = 'template_8vbup1t';  // ← replace
 
-if (EJ_KEY !== 'YOUR_PUBLIC_KEY') emailjs.init({ publicKey: EJ_KEY });
+if (EJ_KEY !== 'bvX9q6Dh9oOI8qcfy') emailjs.init({ publicKey: EJ_KEY });
 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault();
@@ -585,7 +585,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   [loading, success, error].forEach(el => el.style.display = 'none');
   loading.style.display = 'block';
 
-  if (EJ_KEY === 'YOUR_PUBLIC_KEY') {
+  if (EJ_KEY === 'bvX9q6Dh9oOI8qcfy') {
     loading.style.display = 'none';
     error.style.display = 'block';
     error.innerHTML = '&#9888; Email not configured yet &mdash; please write to: <strong>nadeeshan.r.wijesingha@gmail.com</strong>';
